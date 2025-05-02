@@ -50,7 +50,7 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
   
-  const PORT = 3000;
+  const PORT = 3001;
   try {
     await app.listen(PORT);
     console.log(`Application is running on: http://localhost:${PORT}/api`);
